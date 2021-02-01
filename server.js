@@ -23,7 +23,7 @@ fs.readdirSync(models)
   .forEach((file) => require(join(models, file)));
 
 // middlewares
-app.use(cors());
+app.use(cors()); //on prduction origin check can be enforced
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 

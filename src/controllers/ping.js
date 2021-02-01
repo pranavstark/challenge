@@ -5,6 +5,10 @@ const http = new HttpHelper();
 const { code } = require('../helpers/constants');
 const { responseMsgs } = require('../helpers/constants');
 
+/**
+* Check if server accessible and database is up.
+*/
+
 exports.getApiServerStatus = async (req, res) => {
   try {
     const db = mongoose.connection.readyState;
