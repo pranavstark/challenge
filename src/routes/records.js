@@ -1,6 +1,5 @@
-"use strict";
+const express = require('express');
 
-const express = require("express");
 const routes = express.Router();
 const recordCont = require('../controllers/records');
 const validationMiddleware = require('../middlewares/records');
