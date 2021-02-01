@@ -8,11 +8,16 @@
 ## Running application endpoint
 ### https://challenge-x.herokuapp.com
 
+## Prerequisite
+- Node.JS: `v14.15.4`
+- Npm: `v6.14.10`
+- MongoDB database
+
 ## Quick start
 
 - Clone the repo: `https://github.com/pranavstark/challenge.git`
 - Go to the challenge folder `cd challenge`
-- Install Node [npm](https://www.npmjs.com/): `npm install`
+- Install [Node.JS & NPM](https://nodejs.org/en/download/): `npm install`
 - Edit `env.example.template` add details like `PORT`, `DATABASE_URI` etc. as instructed
 - Start application using `npm start` or `npm run dev` for development environment
 - Open http://localhost:4000/ping in your browser, if msg is `Success` then application is running successfully.
